@@ -1,7 +1,7 @@
 Esta é uma solução para o [Component component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 
-![](./screenshot.PNG)
+![](./images/screenshot.PNG)
 
 
 
