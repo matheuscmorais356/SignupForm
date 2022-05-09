@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="container_text">
+      <div class="container_text-content">
+        <h1>Learn to code by watching others</h1>
+        <p class="text">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </div>
+    </div>
+    <div class="container_form">
+      <div class="container_form-content">
+        <button class="try"><b>Try it free 7 days</b> then $20/mo. thereafter</button>
+        <form action="" class="register">
+          <div class="input_container">
+            <div class="input_area">
+              <input type="text" id="First" placeholder="First Name" required>
+              <img src="./images/icon-error.svg" alt="Icone de erro">
+            </div>
+            <span class="message_error"></span>
+          </div>
+          <div class="input_container">
+            <div class="input_area">
+              <input type="text" id="Last" placeholder="Last Name" required>
+              <img src="./images/icon-error.svg" alt="Icone de erro">
+            </div>
+            <span class="message_error"></span>
+          </div>
+          <div class="input_container">
+            <div class="input_area">
+              <input type="email" id="Email" placeholder="Email Address" required>
+              <img src="./images/icon-error.svg" alt="Icone de erro">
+            </div>
+            <span class="message_error"></span>
+          </div>
+          <div class="input_container">
+            <div class="input_area">                                                                  <!--regEx-->
+              <input type="password" id="Password" placeholder="Password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+              <img src="./images/icon-error.svg" alt="Icone de erro">
+            </div>
+            <span class="message_error"></span>
+          </div>
+          <button class="buttonForm" type="submit">CLAIM YOUR FREE TRIAL </button>
+          <div class="terms">
+            <p>By clicking the button, you are agreeing to our <b>Terms and Services</b></p>  
+          </div>
+        </form>
+      
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/matheuscmorais356" target="#blank">Matheus Cardoso Moraia</a>.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
