@@ -9,14 +9,17 @@ Esta é uma solução para o [Component component with sign up form challenge on
 
 - Link da solução: [Clique aqui!](https://matheuscmorais356.github.io/SignupForm/)
 
-## My process
+## Objetivo
 
-### Built with
+O objetivo do projeto é fazer o tratamento de dados através do formulário, verificando se todos os campos estão preenchido e seguindo o padrão de escrita exigido, caso o usuário não siga algum desses padrões será exibido uma mensagem de erro.
+
+### Construído com
 
 - HTML
 - CSS 
 - Flexbox
 - JavaScript
+- RegEx
 
 ## Author
 
